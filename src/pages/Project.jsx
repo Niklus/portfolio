@@ -1,6 +1,12 @@
+import { useEffect } from "react";
+
 const Project = ({ projects }) => {
   const id = Number(new URLSearchParams(window.location.search).get("id"));
   const project = projects.find((project) => project.id === id);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>

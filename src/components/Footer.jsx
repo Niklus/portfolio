@@ -27,12 +27,14 @@ export const Footer = () => {
           <div className="main-footer__row main-footer__row-2">
             <h4 className="heading heading-sm text-lt">Nicholas Otieno</h4>
             <p className="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
+              I am a full stack web developer with a passion for building
+              beautiful and functional websites.
             </p>
           </div>
         </div>
-        <div className="main-footer__lower">&copy; Copyright 2023</div>
+        <div className="main-footer__lower">
+          &copy; Copyright {new Date().getFullYear()}
+        </div>
       </div>
     </footer>
   );

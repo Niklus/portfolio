@@ -1,3 +1,5 @@
+import { HashLink } from "react-router-hash-link";
+
 export const About = () => {
   return (
     <section id="about" className="about sec-pad">
@@ -5,8 +7,9 @@ export const About = () => {
         <h2 className="heading heading-sec heading-sec__mb-med">
           <span className="heading-sec__main">About Me</span>
           <span className="heading-sec__sub">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            I'm a <strong> Web Developer </strong> located in Sweden. I have a
+            passion for building digital products that are both beautiful and
+            functional.
           </span>
         </h2>
         <div className="about__content">
@@ -14,25 +17,23 @@ export const About = () => {
             <h3 className="about__content-title">Get to know me!</h3>
             <div className="about__content-details">
               <p className="about__content-details-para">
-                Hey! It's
-                <strong>Nicholas Otieno</strong>
-                and I'm a <strong> Web Developer </strong> located in Sweden.
-                Open for
-                <strong> remote </strong>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora explicabo quae quod deserunt eius sapiente
-                solutions for complex problems
-                <strong>digital products </strong>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora
+                I love working with both front-end and back-end technologies,
+                and I'm always looking for opportunities to learn and grow as a
+                developer. My tech toolkit includes the latest in JavaScript
+                frameworks and tools.
+              </p>
+              <p className="about__content-details-para">
+                When I'm not immersed in code, you can find me exploring the
+                latest tech innovations or honing my skills through continuous
+                learning.
               </p>
             </div>
-            <a
-              href="./#contact"
+            <HashLink
+              to="#contact"
               className="btn btn--med btn--theme dynamicBgClr"
             >
               Contact
-            </a>
+            </HashLink>
           </div>
           <div className="about__content-skills">
             <h3 className="about__content-title">My Skills</h3>
