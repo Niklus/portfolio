@@ -42,7 +42,7 @@ export const Contact = () => {
             Contact
           </span>
           <span className="heading-sec__sub heading-sec__sub--lt">
-            Feel free to reach out below. I am open to new opportunities.
+            Feel free to reach out below. I am always open to new opportunities.
           </span>
         </h2>
         <div className="contact__form-container">

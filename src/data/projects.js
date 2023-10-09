@@ -1,36 +1,46 @@
 export const projects = [
   {
-    title: "MERN Stack",
+    title: "FupiLink",
     description:
-      "Using React, Node.js, Express & MongoDB I created a Full Stack MERN Application. It's a small social network app that includes authentication, profiles and forum posts.",
+      "FupiLink is a URL shortener that allows you to shorten your links and track them. It's a full stack app that includes authentication a dashboard to manage your links and analytics.",
     image: "/assets/jpeg/example.jpeg",
-    tags: ["Mongo", "Express", "React", "Node"],
+    tags: ["KOA", "Node", "Deno", "Chart.js", "CSS", "HTML", "ES6+"],
     source: "/",
-    visit: "/",
+    visit: "https://fupilink.deno.dev",
     id: 0,
     details:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies aliquam, nunc nisl ultricies nunc, nec ultricies nisl nisl nec nisl. Sed euismod, nisl eget ultricies aliquam, nunc nisl ultricies nunc, nec ultricies nisl nisl nec nisl.",
   },
   {
-    title: "E-Commerce",
+    title: "ContactKeep",
     description:
-      "Using React, Node.js, Express & MongoDB I created a Full Stack MERN Application. It's a small social network app that includes authentication, profiles and forum posts.",
+      "ContactKeep is a full stack app that allows you to keep track of your contacts. It includes authentication and a dashboard to manage your contacts.",
     image: "/assets/jpeg/example.jpeg",
-    tags: ["React", "Node", "Mongo", "Express"],
+    tags: ["Express", "Node", "DynamoDB", "AWS", "CSS", "HTML", "ES6+"],
     source: "/",
-    visit: "/",
+    visit: "https://contactkeep.cyclic.app",
     id: 1,
     details:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies aliquam, nunc nisl ultricies nunc, nec ultricies nisl nisl nec nisl. Sed euismod, nisl eget ultricies aliquam, nunc nisl ultricies nunc, nec ultricies nisl nisl nec nisl.",
   },
   {
-    title: "WebRTC App",
+    title: "Space Browser",
     description:
-      "Using React, Node.js, Express & MongoDB I created a Full Stack MERN Application. It's a small social network app that includes authentication, profiles and forum posts.",
+      "Space Browser is a progressive web app that allows you to browse the NASA image library, With the ability to manage your favorites.",
     image: "/assets/jpeg/example.jpeg",
-    tags: ["React", "Node", "Mongo", "Express"],
+    tags: [
+      "React",
+      "Hyperapp",
+      "Express",
+      "SQLite",
+      "CSS",
+      "HTML",
+      "ES6+",
+      "PWA",
+      "IndexedDb",
+    ],
     source: "/",
-    visit: "/",
+    visit: "https://space-browser.netlify.app/",
     id: 2,
     details:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies aliquam, nunc nisl ultricies nunc, nec ultricies nisl nisl nec nisl. Sed euismod, nisl eget ultricies aliquam, nunc nisl ultricies nunc, nec ultricies nisl nisl nec nisl.",
