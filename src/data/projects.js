@@ -3,7 +3,7 @@ export const projects = [
     title: "FupiLink",
     description:
       "FupiLink is a URL shortener that allows you to shorten your links and track them. It's a full stack app that includes authentication a dashboard to manage your links and analytics.",
-    image: "/assets/jpeg/example.jpeg",
+    image: "/assets/png/fupilink.png",
     tags: ["KOA", "Node", "Deno", "Chart.js", "CSS", "HTML", "ES6+"],
     source: "/",
     visit: "https://fupilink.deno.dev",
@@ -15,7 +15,7 @@ export const projects = [
     title: "ContactKeep",
     description:
       "ContactKeep is a full stack app that allows you to keep track of your contacts. It includes authentication and a dashboard to manage your contacts.",
-    image: "/assets/jpeg/example.jpeg",
+    image: "/assets/png/contactkeep.png",
     tags: ["Express", "Node", "DynamoDB", "AWS", "CSS", "HTML", "ES6+"],
     source: "/",
     visit: "https://contactkeep.cyclic.app",
@@ -27,7 +27,7 @@ export const projects = [
     title: "Space Browser",
     description:
       "Space Browser is a progressive web app that allows you to browse the NASA image library, With the ability to manage your favorites.",
-    image: "/assets/jpeg/example.jpeg",
+    image: "/assets/png/spacebrowser.png",
     tags: [
       "React",
       "Hyperapp",
