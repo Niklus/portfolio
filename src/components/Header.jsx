@@ -38,7 +38,7 @@ export const Header = () => {
             <div className="header__logo-img-cont">
               <img
                 src="/assets/png/profile.png"
-                alt="Ram Maheshwari Logo Image"
+                alt="Nicholas Otieno Image"
                 className="header__logo-img"
               />
             </div>
