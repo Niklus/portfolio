@@ -19,7 +19,10 @@ export const Hero = () => {
       </div>
       <div className="home-hero__socials">
         <div className="home-hero__social">
-          <a href="#" className="home-hero__social-icon-link">
+          <a
+            href="https://www.linkedin.com/in/nicholas-otieno/"
+            className="home-hero__social-icon-link"
+          >
             <img
               src="/assets/png/linkedin-ico.png"
               alt="icon"

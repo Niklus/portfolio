@@ -8,14 +8,22 @@ export const Footer = () => {
               <span>Social</span>
             </h2>
             <div className="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="#">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/nicholas-otieno/"
+              >
                 <img
                   className="main-footer__icon"
                   src="/assets/png/linkedin-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/niklus"
+              >
                 <img
                   className="main-footer__icon"
                   src="/assets/png/github-ico.png"

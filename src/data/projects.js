@@ -5,7 +5,7 @@ export const projects = [
       "FupiLink is a URL shortener that allows you to shorten your links and track them. It's a full stack app that includes authentication a dashboard to manage your links and analytics.",
     image: "/assets/png/fupilink.png",
     tags: ["KOA", "Node", "Deno", "Chart.js", "CSS", "HTML", "ES6+"],
-    source: "https://github.com/niklus",
+    source: "https://github.com/Niklus/fupi.link",
     visit: "https://fupilink.deno.dev",
     id: 0,
     details:
@@ -17,7 +17,7 @@ export const projects = [
       "ContactKeep is a full stack app that allows you to keep track of your contacts. It includes authentication and a dashboard to manage your contacts.",
     image: "/assets/png/contactkeep.png",
     tags: ["Express", "Node", "DynamoDB", "AWS", "CSS", "HTML", "ES6+"],
-    source: "https://github.com/niklus",
+    source: "https://github.com/Niklus/ContactKeep",
     visit: "https://contactkeep.cyclic.app",
     id: 1,
     details:
@@ -40,7 +40,7 @@ export const projects = [
       "IndexedDb",
       "localStorage",
     ],
-    source: "/",
+    source: "https://github.com/Niklus/space-browser",
     visit: "https://space-browser.netlify.app/",
     id: 2,
     details:
