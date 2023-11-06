@@ -71,6 +71,12 @@ export const Header = () => {
                 Contact{" "}
               </HashLink>
             </li>
+            <li className="header__link-wrapper">
+              <a href="/cv.pdf" target="_blank" className="header__link">
+                {" "}
+                CV{" "}
+              </a>
+            </li>
           </ul>
           <div className="header__main-ham-menu-cont" onClick={toggleMenu}>
             <img
